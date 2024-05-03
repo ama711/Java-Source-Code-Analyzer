@@ -1,0 +1,24 @@
+Lexemes                       Tokens
+-----------------------------------------
+void                          void
+main                          identifier
+(                             leftParenthesis
+void                          void
+)                             rightParenthesis
+{                             leftCurly
+int                           int
+a                             identifier
+=                             assignOp
+10                            integerLiteral
+;                             semiColon
+int                           int
+b                             identifier
+=                             assignOp
+20                            integerLiteral
+;                             semiColon
+b                             identifier
+=                             assignOp
+a                             identifier
+++                            incrementOp
+;                             semiColon
+}                             rightCurly
